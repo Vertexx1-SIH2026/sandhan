@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+html, body {
+  background-color: #0B1F3A;
+  color: #E7ECF3;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #24365a; border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+.mono { font-family: 'IBM Plex Mono', ui-monospace, monospace; }

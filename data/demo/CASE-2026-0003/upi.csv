@@ -1,0 +1,6 @@
+txn_id,timestamp,payer_upi_id,payee_upi_id,amount,payer_phone,payer_account_no
+UTR6003001,2026-01-09 09:00:00,sunita.d@ybl,mule.acc02@okicici,60500,+919811100033,50100234567805
+UTR6003002,2026-01-09 13:30:00,mule.acc02@okicici,cashout.hub7@okaxis,70000,,50100234567806
+UTR6003003,2026-01-10 10:00:00,cashout.hub7@okaxis,scamdesk01@okhdfc,68000,,50100234567807
+UTR6003004,2026-01-10 11:20:00,cashout.hub7@okaxis,vikram.t39@ybl,15000,,50100234567807
+UTR6003005,2026-01-10 11:45:00,cashout.hub7@okaxis,anita.r59@icb,9000,,50100234567807

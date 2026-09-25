@@ -1,0 +1,5 @@
+txn_id,timestamp,payer_upi_id,payee_upi_id,amount,payer_phone,payer_account_no
+UTR6001001,2026-01-04 10:20:00,ravi.kumar99@okaxis,scamdesk01@okhdfc,49999,+919811100011,50100234567801
+UTR6001002,2026-01-04 15:10:00,anil.m@ybl,scamdesk01@okhdfc,18000,+919811100012,50100234567804
+UTR6001003,2026-01-04 18:05:00,scamdesk01@okhdfc,rahulk.scam@icb,45000,+919812345601,50100234567803
+UTR6001004,2026-01-05 12:00:00,scamdesk01@okhdfc,mule.acc02@okicici,74000,+919812345601,50100234567803

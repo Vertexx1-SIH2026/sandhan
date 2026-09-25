@@ -1,0 +1,14 @@
+# Optional NLP layer: spaCy NER on FIRs + SBERT M.O. matching.
+# The app runs without these (the features switch off cleanly).
+#
+# Install torch CPU-only FIRST, otherwise pip pulls the multi-GB CUDA build on Linux:
+#   pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+# then:
+#   pip install -r requirements-nlp.txt
+#   python -m spacy download en_core_web_sm
+spacy==3.7.6
+sentence-transformers==3.1.1
+
+# Link prediction stays on the transparent Adamic-Adar heuristic unless you
+# train a HeteroGNN yourself and wire it into graph_analytics._try_load_torch_model():
+# torch-geometric==2.6.0

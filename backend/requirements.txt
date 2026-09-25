@@ -1,0 +1,38 @@
+# Core backend -- everything the demo needs except the two heavy NLP models.
+# Python 3.10-3.12 (3.11 recommended). See requirements-nlp.txt for spaCy/SBERT.
+
+# --- Web framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+websockets==13.0.1
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# --- Auth (PyJWT replaces python-jose; stdlib PBKDF2 replaces passlib/bcrypt) ---
+PyJWT==2.9.0
+
+# --- Databases ---
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+neo4j==5.24.0
+
+# --- Parsing / validation ---
+pymupdf==1.24.10
+phonenumbers==8.13.45
+rapidfuzz==3.9.7
+
+# --- Graph analytics (scipy is REQUIRED by networkx pagerank/eigenvector) ---
+networkx==3.3
+python-louvain==0.16
+numpy==1.26.4
+scipy==1.13.1
+
+# --- Evidence export ---
+reportlab==4.2.2
+qrcode[pil]==7.4.2
+pillow==10.4.0
+
+# --- Scripts (smoke test) ---
+requests==2.32.3

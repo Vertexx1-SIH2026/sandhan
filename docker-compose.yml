@@ -1,0 +1,37 @@
+# Just the two databases -- the backend and frontend run natively (venv / npm).
+#   docker compose up -d
+#   docker compose ps          # wait until both are "healthy"
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: sandhan
+      POSTGRES_USER: sandhan
+      POSTGRES_PASSWORD: sandhan
+    ports:
+      - "5432:5432"
+    volumes:
+      - sandhan_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sandhan -d sandhan"]
+      interval: 5s
+      retries: 20
+
+  neo4j:
+    image: neo4j:5.24-community
+    environment:
+      NEO4J_AUTH: neo4j/sandhan123
+      NEO4J_server_memory_heap_max__size: 1G
+    ports:
+      - "7474:7474"   # browser UI
+      - "7687:7687"   # bolt
+    volumes:
+      - sandhan_neo4j:/data
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p sandhan123 'RETURN 1' >/dev/null 2>&1 || exit 1"]
+      interval: 5s
+      retries: 40
+
+volumes:
+  sandhan_pg:
+  sandhan_neo4j:

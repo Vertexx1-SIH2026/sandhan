@@ -1,0 +1,23 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+.next/
+.env.local
+
+# Storage / generated
+backend/storage/*
+!backend/storage/original/
+!backend/storage/working/
+!backend/storage/evidence/
+backend/storage/original/*
+backend/storage/working/*
+backend/storage/evidence/*
+!backend/storage/*/.gitkeep
+
+.DS_Store
