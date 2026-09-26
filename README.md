@@ -26,14 +26,6 @@ evidence sits in separate call records, bank statements and FIRs, so nobody conn
 
 **Prototype demo video:** `https://youtu.be/<your-video-id>`   *(add the link and QR code here)*
 
-| Baseline: siloed SQL search | Case network |
-|---|---|
-| *(screenshot)* | *(screenshot)* |
-
-| Historical links | Evidence certificate |
-|---|---|
-| *(screenshot)* | *(screenshot)* |
-
 ---
 
 ## ✨ Key features
@@ -376,12 +368,12 @@ sandhan/
 
 | Member | Role |
 |---|---|
-| *name* | Backend / API |
-| *name* | Graph & databases |
-| *name* | Analytics |
-| *name* | Frontend & UI |
-| *name* | Data & demo |
-| *name* | Pitch & legal |
+| *Ujjawal* | Backend / API |
+| *Ujjawal* | Graph & databases |
+| *Piyush* | Analytics |
+| *Rohaan & Dhanveen* | Frontend & UI |
+| *Priyanshi & Shweta* | Data & demo |
+| *Priyanshi* | Pitch & legal |
 
 ---
 
