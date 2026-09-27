@@ -24,7 +24,7 @@ evidence sits in separate call records, bank statements and FIRs, so nobody conn
 
 ## 🎥 Demo
 
-**Prototype demo video:** `https://youtu.be/<your-video-id>`   *(add the link and QR code here)*
+**Prototype demo video:** https://drive.google.com/file/d/16g-N-4uOWDVTiNtT5msroCM0XgVsf5iF/view?usp=sharing
 
 ---
 
